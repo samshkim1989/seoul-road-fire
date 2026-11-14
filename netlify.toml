@@ -1,0 +1,8 @@
+[build]
+  publish = "site"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/citydata"
+  to = "/.netlify/functions/citydata"
+  status = 200
